@@ -2,8 +2,10 @@ import React from 'react'
 import Cover from '../../images/bb.png'
 import Profile from '../../images/trail.png'
 import './ProfileCard.css'
+import {useNavigate} from 'react-router-dom'
 const ProfileCard = () => {
-  const ProfilePage=true;
+  const navigate=useNavigate();
+  const ProfilePage=false;
   return (
     <div className='ProfileCard'>
         <div className='ProfileImages'>
@@ -45,10 +47,9 @@ const ProfileCard = () => {
 
           <hr/>
         </div>
-        {ProfilePage?"":<span>
+        {ProfilePage?"":<span onClick={()=>{navigate('/profile')}}>
           My Profile
         </span>}
-        
     </div>
   )
 }

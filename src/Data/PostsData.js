@@ -9,14 +9,16 @@ export const PostsData = [
         name: 'Tzuyu',
         desc: "Happy New Year all friends! #2023",
         likes: 2300,
-        liked: true
+        liked: true,
+        id:"id1"
     },
     {
         img: postPic2,
         name: 'Maryam',
         desc: "Party time :)",
         likes: 2300,
-        liked: false
+        liked: false,
+        id:"id2"
 
     },
     {
@@ -24,13 +26,15 @@ export const PostsData = [
         name: "Salena Gomez",
         desc: "At Archery Festival",
         likes: 800,
-        liked: false
+        liked: false,
+        id:"id3"
     },
     {
         img:postPic3,
         name: "Salena Gomez",
         desc: "At Archery Festival",
         likes: 800,
-        liked: false
+        liked: false,
+        id:"id4"
     }
 ]

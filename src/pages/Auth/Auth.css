@@ -76,4 +76,15 @@
     align-items: center;
     justify-content: center;
 }
-
+.spanclass{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    background-color:rgb(34, 185, 105);
+}
+.spanclass:hover{
+    background-color: black;
+}
