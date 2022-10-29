@@ -5,6 +5,8 @@ import './ProfileCard.css'
 import {useNavigate} from 'react-router-dom'
 const ProfileCard = () => {
   const navigate=useNavigate();
+
+
   const ProfilePage=false;
   return (
     <div className='ProfileCard'>

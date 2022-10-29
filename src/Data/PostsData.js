@@ -6,16 +6,16 @@ import postPic3 from '../images/bb.png'
 export const PostsData = [
     {
         img: postPic1,
-        name: 'Tzuyu',
-        desc: "Happy New Year all friends! #2023",
+        name: 'demo1',
+        desc: "just demo purpose",
         likes: 2300,
         liked: true,
         id:"id1"
     },
     {
         img: postPic2,
-        name: 'Maryam',
-        desc: "Party time :)",
+        name: 'demo2',
+        desc: "just demo purpose",
         likes: 2300,
         liked: false,
         id:"id2"
@@ -23,16 +23,16 @@ export const PostsData = [
     },
     {
         img:postPic3,
-        name: "Salena Gomez",
-        desc: "At Archery Festival",
+        name: "demo3",
+        desc: "just demo purpose",
         likes: 800,
         liked: false,
         id:"id3"
     },
     {
         img:postPic3,
-        name: "Salena Gomez",
-        desc: "At Archery Festival",
+        name: "demo4",
+        desc: "just demo purpose",
         likes: 800,
         liked: false,
         id:"id4"

@@ -14,8 +14,7 @@ function ShareModal({modalOpened,setModalOpened}) {
       opened={modalOpened}
       onClose={()=>setModalOpened(false)}
     >
-   
-    {/* <Comments/> */}
+    <Comments/>
        
     </Modal>
   );
